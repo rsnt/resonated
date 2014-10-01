@@ -1,4 +1,10 @@
 var themes = [
+
+    {
+        name: 'Sensa',
+        iframe: 'http://demo.drythemes.com/sensa-wp/',
+        link: 'http://themeforest.net/item/sensa-one-page-responsive-wordpress-theme/7588759?ref=ResonateThemes'
+    },
     {
         name: 'Gridstack',
         iframe: 'http://themewich.com/gridstack/',
@@ -14,6 +20,11 @@ var themes = [
         iframe: 'http://omega.oxygenna.com/',
         link: 'http://themeforest.net/item/omega-multipurpose-responsive-bootstrap-theme/7660374?ref=ResonateThemes'
     },
+    {
+        name: 'Argus One Page',
+        iframe: 'http://demo.drythemes.com/argus/',
+        link: 'http://themeforest.net/item/argus-one-page-responsive-template/3740056?ref=ResonateThemes'
+    }   
 ];
 
 
