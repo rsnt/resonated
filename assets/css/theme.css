@@ -30,7 +30,8 @@ body {
 iframe{ 
   width: 100%;
   height: 100%;
-  border: 1px solid #e0e2e2;
+  border: 0;
+  border-right: 1px solid #e0e2e2;
 }
 
 /* Paragraph & Typographic */
@@ -298,6 +299,10 @@ i.fa.greyarrow {
   background: #fff;
   padding: 0;
   margin: 15px 0;
+}
+i.grey {
+  color: #a6a7a8;
+  margin-left: 10px; 
 }
 i.fa.dots {
   margin: 9px 2px;
