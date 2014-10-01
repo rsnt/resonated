@@ -27,7 +27,6 @@ var themes = [
     }   
 ];
 
-
 (function($) {
 
     function selectChanged(e) {
