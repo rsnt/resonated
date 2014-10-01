@@ -19,29 +19,28 @@ body {
 }
 
 body {
-  background-color: #ededed;
+  background-color: #3caca9;
   font-family: 'Source Sans Pro', sans-serif;    
   font-size: 14px;
   text-align: left;
-  color: #404040;
+  color: #222;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
 }
 iframe{ 
   width: 100%;
   height: 100%;
-  border: none;
+  border: 1px solid #e0e2e2;
 }
 
 /* Paragraph & Typographic */
 body {
-  font-size: 180%; /* make it bigger */
+  font-size: 140%; /* make it bigger */
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
 }
-
 h1 {
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -50,9 +49,6 @@ h1 {
   line-height: 2em;
   text-align: left;
   float: left;
-}
-h1 a{
-  color: #fff;
 }
 
 h2 {
@@ -82,16 +78,6 @@ h4 {
   color: #aaa;
   padding-bottom: 20px;
   border-bottom: 1px solid #f2f2f2;
-}
-
-h4.bigtitle {
-  font-size: 3em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -2px;
-  color: #111;
-  margin: 0;
-  border-bottom: none;
 }
 
 h5 {
@@ -175,61 +161,12 @@ footer {
 }
 /* end reset button */
 
-body .btn {
-  padding: 12px 20px;
-  margin: 10px auto;
-  display: inline-block;
-  background: #111;
-  font-weight: 600;
-
-  text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-
-  font-size: 1em;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-
-  white-space: nowrap;
-  max-width: 320px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: pointer;
+a.btn.btn-default {
+  border: solid 1px #ccc;
+  background: #ccc;
+  padding: 3px;
+  margin: 2px;
 }
-body .btn-lg {
-  padding: 5px 10px;
-}
-
-body .btn.btn-primary {
-  width: 93.75%;
-  color: #fff;
-  background-color: #ed4642;
-}
-
-body .btn.btn-primary:hover {
-  color: #fff;
-  background-color: #17bcb5;
-}
-
-body .btn.btn-default {
-  font-size: 75%;
-  color: #404040;
-  background-color: #fff;
-  border: solid 2px #404040;
-}
-body .btn.btn-default:hover{
-  color: #fff;
-  background-color: #404040;
-  border: solid 2px #404040;
-}
-
-
 
 /* Modal Configuration */
 .modal-header {
@@ -269,10 +206,8 @@ input[type="submit"] {
 }
 select#theme-select {
     border: 2px solid #fff;
-    background-color: transparent;
+    background-color: #fff;
     border-radius: 2px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
-    color: #fff;
     font-size: inherit;
     margin: 0;
     overflow: hidden;
@@ -280,25 +215,52 @@ select#theme-select {
     padding-bottom: 2px;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin-right: 30px; 
 }
 /* ==========================================================================
    Objects
    ========================================================================== */
+.container {
+  width: 95%;
+}
+.browsertop {
+  margin: 50px auto 0 auto;
+  background: #f5f6f7 url("../../assets/img/tab.png")no-repeat 5px 14px;
+  text-align: right;
+  height: 40px;
+  padding: 5px 15px;
+  border-bottom: solid 0px #ddd;
+  -moz-border-top-left-radius: 12px;
+  border-top-left-radius: 12px;
+  -moz-border-top-right-radius: 12px;
+  border-top-right-radius: 12px;
+}
 .browser {
-  padding-top: 45px;
-  background-color: #e7e7e7;
-  margin: 120px auto 0 auto;
-  width: 90%;
+  background-color: #ebeced;
   height: 100%;
-  border: solid 1px #bbb;
-  -moz-border-top-left-radius: 5px;
-  border-top-left-radius: 5px;
-  -moz-border-top-right-radius: 5px;
-  border-top-right-radius: 5px;
-  z-index:-1; 
-  -webkit-box-shadow: 0 -5px 20px -5px rgba(0,0,0,0.5);
-  box-shadow: 0 -5px 20px -5px rgba(0,0,0,0.5);
+  z-index:-1;
+/*  -webkit-box-shadow: 0 -5px 10px -5px rgba(0,0,0,0.5);
+  box-shadow: 0 -5px 10px -5px rgba(0,0,0,0.5); */
+}  
+
+.addressfield {
+  border-radius: 3px;
+  background: #fff;
+  margin: 15px;
+}
+i.fa {
+  margin: 10px 5px 0 0;
+}
+.green {
+  color: #6fb54c;  
+}
+.yellow {
+  color: #deab55;
+}
+.red {
+  color: #d7665d;
+}
+.grey {
+  color: #a6a7a8; 
 }
 .tab {
   z-index: -1;

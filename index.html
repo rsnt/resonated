@@ -31,16 +31,25 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
   </head>
 <body>
-    <div class="container">
-    <div class="tab">
-        <div>
-            <select id="theme-select" name="themes"></select>
-            <a href="#fakelink" id="btn-info" class="btn btn-default">More info</a>
-            <a href="#fakelink" id="btn-buy" class="btn btn-primary pull-right">Purchase!</a>
+  <div class="container fluid">
+    <div class="browsertop">
+        <i class="fa fa-circle green"></i>
+        <i class="fa fa-circle yellow"></i>
+        <i class="fa fa-circle red"></i>
+      </div>
+      <div class="browser">
+        <div class="col-md-1">
+          <i class="fa fa-chevron-left grey"></i>
+          <i class="fa fa-chevron-right grey"></i>
         </div>
-    </div>
-</div>
-    <div class="browser">
+        <div class="col-md-8 addressfield">
+          <select id="theme-select" name="themes"></select>
+            <a href="#fakelink" id="btn-info" class="btn btn-default">More info</a>
+        </div>
+        <div class="col-md-2">
+          
+          <a href="#fakelink" id="btn-buy" class="btn btn-primary pull-right">Purchase!</a>
+        </div>
           <iframe></iframe>        
         </div>
     </div>
